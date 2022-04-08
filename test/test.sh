@@ -35,7 +35,7 @@ then
 	exit
 fi
 echo "testing CVE search - CVE-2014-0160"
-../cve_query.py --cve CVE-2014-0160
+../cve_query.py -cve CVE-2014-0160
 if [ $? != 0 ]
 then 
 	echo "failed input file test"
